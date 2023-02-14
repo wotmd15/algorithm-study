@@ -1,4 +1,4 @@
-package programers.level0;
+package programmers.level0;
 
 public class 두수의합 {
     /**
