@@ -3,9 +3,7 @@ class Solution {
         int answer = 2;
         
         for(String dicStr : dic){
-            if(dicStr.length() != spell.length){
-                continue;
-            }
+            if(dicStr.length() != spell.length) continue;
             for(String spellStr : spell){
                 dicStr = dicStr.replaceFirst(spellStr, "");
             }
