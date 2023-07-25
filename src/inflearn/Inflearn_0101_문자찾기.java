@@ -2,7 +2,7 @@ package inflearn;
 
 import java.util.Scanner;
 
-public class Main {
+public class Inflearn_0101_문자찾기 {
     public int solution(String str, char t){
         int answer = 0;
         str = str.toUpperCase();
@@ -23,7 +23,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main t = new Main();
+        Inflearn_0101_문자찾기 t = new Inflearn_0101_문자찾기();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         char c = kb.next().charAt(0); //
